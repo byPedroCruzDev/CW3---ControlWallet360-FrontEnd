@@ -1,30 +1,40 @@
 
 import styled from "styled-components"
 export const ContainerLogin = styled.div`
-    width: 100vw;
-    display: flex;
-    justify-content: space-around;
-    margin: 0 auto;
-    flex-direction: column;
+  width: 100vw;
+  height: 100vh; 
+  display: flex;
+  margin:  0 auto;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
 
-    main {
-    width: 100%;
+  h1 {
+    color: var(--grey10);
+  }
+  .ContainerBlocks{
+    width: 60%;
+    height: 80%;
     display: flex;
-    justify-content: space-around;
+    margin: 50px auto;
+    justify-content: center;
     align-items: center;
-    }
-
-    .container {
-    margin-left: 10vw;
-    margin-top: 50px;
-    }
-
-    .img {
-    width: 500px;
-    height: 500px;
-    }
-
-    form {
+  }
+  .LoginImage{
+    background-color: darkcyan;
+    width: 50%;
+    height: 95%;
+    border-radius: 8px;
+    
+  }
+  .LoginBox{
+    width: 50%;
+    height:  95%;
+    border-radius: 8px;
+    background-color: var(--brand2);
+    align-items: center;
+  }
+  form {
     width: 25%;
     height: 100%;
     display: flex;
@@ -35,24 +45,24 @@ export const ContainerLogin = styled.div`
     gap: 10px;
 
     div {
-        text-align: center;
+      text-align: center;
     }
     h1 {
-        margin: 40px 0;
+      margin: 40px 0;
     }
 
     label {
-        font-size: var(--text-size3);
-        padding: 5px 0;
+      font-size: var(--text-size3);
+      padding: 5px 0;
     }
     section {
-        width: 100%;
-        height: 40px;
+      width: 100%;
+      height: 40px;
 
-        text-align: center;
-        font-size: var(--text-size4);
+      text-align: center;
+      font-size: var(--text-size4);
 
-        .toRegister {
+      .toRegister {
         align-items: center;
         font-size: var(--text-size4);
         color: green;
@@ -60,25 +70,40 @@ export const ContainerLogin = styled.div`
         font-family: var(--font);
 
         &:hover {
-            text-decoration: underline;
+          text-decoration: underline;
         }
-        }
+      }
     }
-    }
-    @media (max-width: 768px) {
+  }
+  @media (max-width: 768px) {
     main {
-        align-items: center;
+      align-items: center;
     }
     form {
-        width: 70%;
-        max-width: 380px;
-        height: 100%;
+      width: 70%;
+      max-width: 380px;
+      height: 100%;
     }
     .container {
-        display: none;
+      display: none;
     }
     nav {
-        width: 60%;
+      width: 60%;
     }
-    }
-`
+  }
+`;
+export const Button = styled.button`
+  width: 100%;
+  height: 40px;
+
+  border: solid 1px white;
+  border-radius: 4px;
+  font-family: var(--font);
+  color: white;
+  background-color: var(--main-color);
+
+  &:disabled{
+    cursor: not-allowed;
+    opacity: 0.4;   
+  }
+`;

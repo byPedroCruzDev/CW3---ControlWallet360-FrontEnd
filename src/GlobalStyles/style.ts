@@ -1,5 +1,5 @@
 import { createGlobalStyle } from "styled-components";
-export default createGlobalStyle `  
+export default createGlobalStyle`  
     html, body, div, span, applet, object, iframe,
     h1, h2, h3, h4, h5, h6, p, blockquote, pre,
     a, abbr, acronym, address, big, cite, code,
@@ -46,10 +46,11 @@ export default createGlobalStyle `
       border-spacing: 0;
     }
     :root{
-      --brand1: #4529E6;
-      --brand2: #5126EA;
-      --brand3: #B0A6F0;
+      --brand1: #0E0F14;
+      --brand2: #302F44;
+      --brand3: #C2B7B3;
       --brand4: #EDEAFD;
+      --brand5: #F35707;
 
       --grey0: #0B0D0D;
       --grey1: #212529;
@@ -112,7 +113,7 @@ export default createGlobalStyle `
     height: 100%;
   }
   body {
-    background: var(--color-background);
+    background: var(--brand1);
     color: var(--color-text);
     -webkit-font-smoothing: antialiased;
     overflow-x: hidden;

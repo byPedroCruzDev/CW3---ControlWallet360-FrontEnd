@@ -25,7 +25,15 @@ export const ContainerLogin = styled.div`
     width: 50%;
     height: 95%;
     border-radius: 8px;
+
+    background-size: cover;
+    background-position: center;
     
+  }
+  .LoginBox .MoneyImage{
+    width: 90%;
+    height: 90%;
+
   }
   .LoginBox{
     width: 50%;

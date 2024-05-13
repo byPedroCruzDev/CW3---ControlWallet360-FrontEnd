@@ -9,8 +9,9 @@ export const ContainerLogin = styled.div`
   text-align: center;
   align-items: center;
 
-  h1 {
+  h2 {
     color: var(--grey10);
+    margin-top: 40px ;
   }
   .ContainerBlocks{
     width: 60%;
@@ -21,19 +22,17 @@ export const ContainerLogin = styled.div`
     align-items: center;
   }
   .LoginImage{
-    background-color: darkcyan;
     width: 50%;
     height: 95%;
     border-radius: 8px;
-
     background-size: cover;
     background-position: center;
     
   }
-  .LoginBox .MoneyImage{
-    width: 90%;
-    height: 90%;
-
+  img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
   }
   .LoginBox{
     width: 50%;
@@ -98,20 +97,5 @@ export const ContainerLogin = styled.div`
     nav {
       width: 60%;
     }
-  }
-`;
-export const Button = styled.button`
-  width: 100%;
-  height: 40px;
-
-  border: solid 1px white;
-  border-radius: 4px;
-  font-family: var(--font);
-  color: white;
-  background-color: var(--main-color);
-
-  &:disabled{
-    cursor: not-allowed;
-    opacity: 0.4;   
   }
 `;

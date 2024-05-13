@@ -1,5 +1,5 @@
-import {ContainerLogin, Button} from "./style"
-import a1 from "../../Assets/a1.jpg"
+import {ContainerLogin} from "./style"
+import a2 from "../../Assets/a3.png"
 import Input from "../../Components/Input"
 
 export const Login = () =>{
@@ -8,7 +8,7 @@ export const Login = () =>{
             <h1>CW3</h1>
             <div className="ContainerBlocks">
                     <main className="LoginBox">
-                        <h1>Login</h1>
+                        <h2>Login</h2>
                         <form action="">
                             <label htmlFor="">Email</label>
                             <Input></Input>
@@ -18,7 +18,7 @@ export const Login = () =>{
                         
                     </main> 
                     <main className="LoginImage">
-                        <img className="MoneyImage" src={""} alt="money"/>
+                        <img className="MoneyImage" src={a2} alt="money"/>
                     </main>
             </div>
            

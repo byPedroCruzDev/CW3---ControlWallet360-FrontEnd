@@ -1,5 +1,6 @@
 import {ContainerLogin} from "./style"
-import a2 from "../../Assets/a3.png"
+import Button from "../../Components/Button"
+import a2 from "../../Assets/a34.png"
 import Input from "../../Components/Input"
 
 export const Login = () =>{
@@ -14,12 +15,11 @@ export const Login = () =>{
                             <Input></Input>
                             <label htmlFor="">Senha</label>
                             <Input></Input>
+                            <Button buttonSize="big" >Entrar</Button>
                         </form>
                         
                     </main> 
-                    <main className="LoginImage">
-                        <img className="MoneyImage" src={a2} alt="money"/>
-                    </main>
+                    
             </div>
            
             

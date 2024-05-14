@@ -42,14 +42,16 @@ export const ContainerLogin = styled.div`
     align-items: center;
   }
   form {
-    width: 25%;
-    height: 100%;
+    width: 60%;
+    height: 70%;
     display: flex;
     padding-top: 20px;
     flex-direction: column;
     margin: 20px auto;
     color: white;
     gap: 10px;
+    justify-content: center;
+
 
     div {
       text-align: center;
@@ -61,6 +63,13 @@ export const ContainerLogin = styled.div`
     label {
       font-size: var(--text-size3);
       padding: 5px 0;
+      text-align: start;
+    }
+    input{
+      width: 100%;
+    }
+    button {
+      margin-top: 40px;
     }
     section {
       width: 100%;
@@ -83,13 +92,16 @@ export const ContainerLogin = styled.div`
     }
   }
   @media (max-width: 768px) {
-    main {
+    .LoginBox {
       align-items: center;
+      background-color: blueviolet;
+      width: 100%;
     }
     form {
-      width: 70%;
-      max-width: 380px;
-      height: 100%;
+      width: 90%;
+      max-width: 480px;
+      height: 80%;
+    
     }
     .container {
       display: none;

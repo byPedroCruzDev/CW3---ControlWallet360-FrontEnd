@@ -92,13 +92,16 @@ export const ContainerLogin = styled.div`
     }
   }
   @media (max-width: 768px) {
-    main {
+    .LoginBox {
       align-items: center;
+      background-color: blueviolet;
+      width: 100%;
     }
     form {
-      width: 70%;
-      max-width: 380px;
-      height: 100%;
+      width: 90%;
+      max-width: 480px;
+      height: 80%;
+    
     }
     .container {
       display: none;

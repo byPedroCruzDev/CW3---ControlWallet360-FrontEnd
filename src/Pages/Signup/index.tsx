@@ -1,10 +1,11 @@
 import Button from "../../Components/Button"
+import HeaderMenu from "../../Components/Header"
 import Input from "../../Components/Input"
 import { ContainerSignup } from "./style"
 export const Signup = () =>{
     return (
         <ContainerSignup>
-            <h1>CW3</h1>
+            <HeaderMenu/>
             <div className="ContainerBlocks">
                     <main className="LoginBox">
                         <h2>Registro</h2>

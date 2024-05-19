@@ -10,7 +10,7 @@ export const Header = styled.header`
   border-bottom: 1px solid var(--brand2);
 
   h1{
-    color: var(--brand2);
+    color: gainsboro;
   }
 
   .containerHeader {

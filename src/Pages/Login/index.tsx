@@ -1,13 +1,13 @@
 import {ContainerLogin} from "./style"
-import { Header } from "../../Components/Header/style"
 import Button from "../../Components/Button"
-import a2 from "../../Assets/a34.png"
 import Input from "../../Components/Input"
+import HeaderMenu from "../../Components/Header"
 
 export const Login = () =>{
     return(
         <ContainerLogin>
-            <Header/>
+            <HeaderMenu/>
+            
             <div className="ContainerBlocks">
                     <main className="LoginBox">
                         <h2>Login</h2>
@@ -21,9 +21,7 @@ export const Login = () =>{
                         
                     </main> 
                     
-            </div>
-           
-            
+            </div>   
       </ContainerLogin>
     )
 }

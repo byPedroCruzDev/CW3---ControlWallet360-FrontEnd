@@ -32,11 +32,11 @@ const HeaderMenu = () => {
                 <li>
                   <Link to="/quemSomos">
                     {" "}
-                    <p>Quem Somos</p>
+                    <p>Sobre</p>
                   </Link>
                 </li>
                 <li>
-                  <Link to="/session">
+                  <Link to="/login">
                     {" "}
                     <p>Login</p>
                   </Link>

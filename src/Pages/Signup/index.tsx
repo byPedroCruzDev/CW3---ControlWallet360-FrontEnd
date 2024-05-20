@@ -22,7 +22,6 @@ export const Signup = () =>{
                         </form>
                         
                     </main> 
-                    
             </div> 
       </ContainerSignup>
     )
